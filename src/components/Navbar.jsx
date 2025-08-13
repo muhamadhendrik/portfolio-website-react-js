@@ -33,22 +33,22 @@ export const Navbar = () => {
                 }`}>
                 <li>
                     <a href="#beranda" className="sm:text-lg text-base font-medium">
-                        Beranda
+                        Home
                     </a>
                 </li>
                 <li>
                     <a href="#tentang" className="sm:text-lg text-base font-medium">
-                        Tentang
+                        About
                     </a>
                 </li>
                 <li>
                     <a href="#proyek" className="sm:text-lg text-base font-medium">
-                        Proyek
+                        Projects
                     </a>
                 </li>
                 <li>
                     <a href="#kontak" className="sm:text-lg text-base font-medium">
-                        Kontak
+                        Contact
                     </a>
                 </li>
             </ul>

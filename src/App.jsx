@@ -6,27 +6,29 @@ function App() {
         <>
             <div className="hero grid md:grid-cols-2 pt-10 items-center xl:gap-0 gap-6 grid-cols-1">
                 <div className="animate__animated animate__fadeInUp animate__delay-1s">
-                    <div className="flex items-center gap-3 mb-6 bg-zinc-800 w-fit p-4 rounded-2xl">
+                    {/* <div className="flex items-center gap-3 mb-6 bg-zinc-800 w-fit p-4 rounded-2xl">
                         <img
                             src={DataImage.HeroImage}
                             alt="Hero Image"
-                            className="w-10 rounded-md"
+                            className="w-10 rounded-lg"
                             loading="lazy"
                         />
                         <q>Kode yang indah, lahir dari ketekunan.🚀</q>
-                    </div>
+                    </div> */}
                     <h1 className="text-5xl/tight font-bold mb-6">
                         Hi, I'm Muhamad Hendrik
                     </h1>
                     <p className="text-base/loose mb-6 opacity-50">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit. Temporibus asperiores recusandae vitae iusto ipsam
-                        nam! Id, quis iusto officia accusamus labore sapiente.
-                        Magnam illo vel repellendus? Eum quae saepe blanditiis.
+                        Software Engineer with over 3 years of experience in web
+                        development, particularly in Laravel. Skilled in
+                        building scalable web applications, managing server
+                        infrastructure, and automating deployment processes.
+                        Highly enthusiastic about learning new technologies and
+                        focused on delivering efficient, high-quality solutions.
                     </p>
                     <div className="flex items-center sm:gap-4 gap-2">
                         <a
-                            href="#"
+                            href=""
                             className="bg-violet-700 p-4 rounded-2xl hover:bg-violet-600">
                             Download CV
                             <i className="ri-download-line ri-lg"></i>
@@ -42,7 +44,7 @@ function App() {
                 <img
                     src={DataImage.HeroImage}
                     alt="Hero Image"
-                    className="w-[500px] md:ml-auto animate__animated animate__fadeInUp animate__delay-2s"
+                    className="w-[500px] md:ml-auto animate__animated animate__fadeInUp animate__delay-2s rounded-full"
                     loading="lazy"
                 />
             </div>
@@ -57,39 +59,37 @@ function App() {
                     <img
                         src={DataImage.HeroImage}
                         alt="Image"
-                        className="w-12 rounded-md mb-10 sm:hidden"
+                        className="w-12 rounded-lg mb-10 sm:hidden"
                         loading="lazy"
                     />
                     <p className="text-base/loose mb-10">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing
-                        elit. Neque ab accusantium assumenda iure fuga
-                        doloremque quibusdam quasi ullam nihil facilis esse ut
-                        itaque voluptas unde, officiis fugiat omnis, aliquam
-                        recusandae quo illum dicta sint distinctio incidunt?
-                        Provident ex autem neque quam inventore exercitationem
-                        laboriosam totam magni voluptatem nostrum modi deleniti,
-                        accusantium aut sed expedita iusto veniam perspiciatis
-                        omnis at sit, vel dolore. Eum possimus, iste neque
+                        Software Engineer with over 3 years of experience in web
+                        development, particularly in Laravel. Skilled in
+                        building scalable web applications, managing server
+                        infrastructure, and automating deployment processes.
+                        Highly enthusiastic about learning new technologies and
+                        focused on delivering efficient, high-quality solutions.
                     </p>
                     <div className="flex items-center justify-between">
                         <img
                             src={DataImage.HeroImage}
                             alt="Image"
-                            className="w-12 rounded-md sm:block hidden"
+                            className="w-12 rounded-lg sm:block hidden"
                             loading="lazy"
                         />
                         <div className="flex items-center gap-6">
-                            <div>
+                            {/* <div>
                                 <h1 className="text-4xl mb-1">
                                     45<span className="text-violet-500">+</span>
                                 </h1>
                                 <p>Proyek Selesai</p>
-                            </div>
+                            </div> */}
                             <div>
                                 <h1 className="text-4xl mb-1">
-                                    4<span className="text-violet-500">+</span>
+                                    3.5
+                                    <span className="text-violet-500">+</span>
                                 </h1>
-                                <p>Tahun Pengalaman</p>
+                                <p>Years Experience</p>
                             </div>
                         </div>
                     </div>
@@ -101,24 +101,21 @@ function App() {
                 className="tools mt-32"
                 data-aos="fade-up"
                 data-aos-duration="1000">
-                <h1 className="text-4xl/snug font-bold mb-4">
-                    Tools yang digunakan
-                </h1>
+                <h1 className="text-4xl/snug font-bold mb-4">Tech Stack</h1>
                 <p className="xl:w-2/5 lg:w-2/4 md:w-2/3 sm:w-2/4 w-full text-base/loose opacity-50">
-                    Berikut ini beberapa tools yang biasa saya gunakan untuk
-                    pembuatan website ataupun design
+                    Here are some of the tools I usually use for website work.
                 </p>
                 <div className="tools-box mt-14 grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4">
                     {listTools.map((tool) => (
                         <div
                             className="group flex items-center gap-2 p-3 border border-zinc-600 rounded-md hover:bg-zinc-600"
                             key={tool.id}>
-                            <img
+                            {/* <img
                                 src={tool.gambar}
                                 alt="Tools Image"
                                 className="w-14 bg-zinc-800 p-1 group-hover:bg-zinc-900"
                                 loading="lazy"
-                            />
+                            /> */}
                             <div>
                                 <h4 className="font-bold">{tool.nama}</h4>
                                 <p className="opacity-50">{tool.ket}</p>
@@ -134,9 +131,11 @@ function App() {
                 data-aos="fade-up"
                 data-aos-duration="1000"
                 id="proyek">
-                <h1 className="text-center font-bold text-4xl mb-2">Proyek</h1>
+                <h1 className="text-center font-bold text-4xl mb-2">
+                    Projects
+                </h1>
                 <p className="text-base/loose text-center opacity-50">
-                    Berikut ini beberapa proyek yang telah saya buat.
+                    Here are some of the projects I have worked on.
                 </p>
                 <div className="proyek-box mt-14 grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4">
                     {listProyek.map((proyek) => (
@@ -183,9 +182,10 @@ function App() {
                 data-aos="fade-up"
                 data-aos-duration="1000"
                 id="kontak">
-                <h1 className="text-4xl font-bold mb-2 text-center">Kontak</h1>
+                <h1 className="text-4xl font-bold mb-2 text-center">Contact</h1>
                 <p className="text-base/loose text-center mb-10 opacity-50">
-                    Mari terhubung dengan saya
+                    If you have any questions or would like to collaborate,
+                    please contact me using the form below.
                 </p>
                 <form
                     action="https://formsubmit.co/muhamadhendrikbsns@gmail.com"
@@ -195,13 +195,13 @@ function App() {
                     <div className="flex flex-col gap-6">
                         <div className="flex flex-col gap-2">
                             <label className="font-semibold">
-                                Nama Lengkap
+                                First Name
                             </label>
                             <input
                                 type="text"
                                 name="nama"
                                 id="nama"
-                                placeholder="Masukan nama lengkap..."
+                                placeholder="Enter First Name..."
                                 className="border border-zinc-500 p-2 rounded-md"
                                 required
                             />
@@ -212,20 +212,20 @@ function App() {
                                 type="email"
                                 name="email"
                                 id="email"
-                                placeholder="Masukan email..."
+                                placeholder="Enter email..."
                                 className="border border-zinc-500 p-2 rounded-md"
                                 required
                             />
                         </div>
                         <div className="flex flex-col gap-2">
                             <label htmlFor="pesan " className="font-semibold">
-                                Pesan
+                                Message
                             </label>
                             <textarea
                                 type="text"
                                 name="pesan"
                                 id="pesan"
-                                placeholder="Masukan Pesan"
+                                placeholder="Enter Message"
                                 className="border border-zinc-500 p-2 rounded-md"
                                 cols="45"
                                 rows="7"
@@ -235,7 +235,7 @@ function App() {
                             <button
                                 type="submit"
                                 className="bg-violet-700 p-3 rounded-lg w-full cursor-pointer border border-zinc-600 hover:bg-violet-600">
-                                Kirim Pesan
+                                Send Message
                             </button>
                         </div>
                     </div>
