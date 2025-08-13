@@ -137,7 +137,10 @@ function App() {
                 <p className="text-base/loose text-center opacity-50">
                     Here are some of the projects I have worked on.
                 </p>
-                <div className="proyek-box mt-14 grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4">
+                <h3 className="text-lg/loose text-center text-white mt-20">
+                    Sorry I'm Working On It...
+                </h3>
+                {/* <div className="proyek-box mt-14 grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4">
                     {listProyek.map((proyek) => (
                         <div
                             className="p-4 bg-zinc-800 rounded-md"
@@ -173,7 +176,7 @@ function App() {
                             </div>
                         </div>
                     ))}
-                </div>
+                </div> */}
             </div>
 
             {/* Kontak */}
@@ -194,9 +197,7 @@ function App() {
                     autoComplete="off">
                     <div className="flex flex-col gap-6">
                         <div className="flex flex-col gap-2">
-                            <label className="font-semibold">
-                                First Name
-                            </label>
+                            <label className="font-semibold">First Name</label>
                             <input
                                 type="text"
                                 name="nama"
